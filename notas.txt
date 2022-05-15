@@ -37,3 +37,13 @@ metodo delete : eliminamos un registro
 //**    reactfront   **//
 
 npm install axios react-router-dom bootstrap
+
+//**    Base de datos   **//
+
+crear una base de datos llamada database_app
+y una tabla con los siguientes campos:
+    id : int autoincrement
+    title : string
+    content : string
+    createAt : date
+    updateAt : date
