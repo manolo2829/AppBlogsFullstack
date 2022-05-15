@@ -1,0 +1,39 @@
+//**node**//
+npm i express cors mysql2 sequelize
+
+//probar conexion
+nodemon app
+
+//thunder client
+es una extencion de vscode, nos sirve para probar los metodos
+
+http://localhost:8000/blogs/
+
+metodo get : obtenemos todos los registros
+
+metodo get/:id : obtenemos un gestro
+    http://localhost:8000/blogs/1
+    obtenemos el registro con el id 1
+
+metodo post : creamos un registro en formato json en el body
+    {
+        "title":"titulo nuevo 2",
+        "content":"contenido nuevo 2"
+    }
+    creamos el registro
+
+metodo put : actualizamos un registro
+    http://localhost:8000/blogs/4
+    {
+        "title":"titulo actualizado 4",
+        "content":"contenido actulizado 4"
+    }
+    actualizamos el registro indicado en la url
+
+metodo delete : eliminamos un registro
+    http://localhost:8000/blogs/5
+    se elimina el registro indicado en la url
+
+//**    reactfront   **//
+
+npm install axios react-router-dom bootstrap
