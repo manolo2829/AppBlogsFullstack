@@ -33,6 +33,7 @@ const CompShowBlogs = () => {
             <div className="row">
                 <div className="col">
                     <Link to='/create' className='btn btn-primary my-2'><i className="fa-solid fa-plus"></i></Link>
+                    <Link to='/users' className='btn btn-primary my-2'>Usuarios</Link>
                     <table className='table'>
                         <thead className='table-primary'>
                             <tr>

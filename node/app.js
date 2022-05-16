@@ -7,6 +7,7 @@ import db from "./database/db.js";
 
 // importamos nuestro enrutador
 import blogRoutes from './routes/routes.js'
+import userRoutes from './routes/routesUser.js'
 
 // le asignamos la clase expresss a esta constante para poder utilizar todos los metodos
 const app = express()
@@ -15,6 +16,7 @@ const app = express()
 app.use( cors() )
 app.use(express.json())
 app.use('/blogs', blogRoutes)
+app.use('/users', userRoutes)
 
 try {
     await db.authenticate()

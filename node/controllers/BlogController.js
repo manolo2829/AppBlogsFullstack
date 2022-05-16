@@ -48,7 +48,7 @@ export const createBlog = async(req, res) => {
     }
 }
 
-// Actualizar un rgistro
+// Actualizar un registro
 
 export const updateBlog = async(req,res) => {
     try {
